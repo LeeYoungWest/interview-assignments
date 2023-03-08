@@ -1,0 +1,228 @@
+.app {
+  background-color: #2D2765;
+  width: 100vw;
+  position: relative;
+  height: 20.8vw;
+}
+
+.appLeft {
+  background: url(/src/assets/22.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position-x: -20vw;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.appRight {
+  position: absolute;
+  right: 3vw;
+  bottom: 3vw;
+  width: 37vw;
+}
+
+.countDown {
+  color: #fff;
+  padding-bottom: 1.5vw;
+  text-align: end;
+  line-height: 1.5vw;
+}
+
+.backLeftImg {
+  height: 100%;
+  background: url(/src/assets/MaskGroup.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 24vw;
+}
+
+.backLeftText {
+  align-self: center;
+  color: #fff
+}
+
+.textTop {
+  font-weight: 300;
+  font-size: 2vw;
+  width: 15vw;
+}
+
+.textDown {
+  font-weight: 500;
+  font-size: 5vw;
+}
+
+.backRightImg {
+  background-color: #D7D4FC;
+  display: flex;
+  padding: 1vw;
+  height: 10vw;
+  position: relative;
+}
+
+
+.discount {
+  align-self: center;
+  text-align: center;
+  display: grid;
+  padding-left: 3.6vw;
+}
+
+.discountTop {
+  font-weight: 600;
+  font-size: 2.5vw
+}
+
+.discountDown {
+  font-weight: 600;
+  font-size: 1.5vw
+}
+
+.pLeft {
+  padding-left: 2vw
+}
+
+.Welcome {
+  font-weight: 600;
+  font-size: 2vw
+}
+
+.mar {
+  margin: 1vw 0
+}
+
+.textCon {
+  font-weight: 400;
+  font-size: 0.9vw;
+}
+
+.time {
+  font-weight: 600;
+  font-size: 1vw;
+  color: #000;
+  background-color: #D7D4FC;
+  margin: 6px;
+}
+
+.btn {
+  background-color: #272833;
+  color: #fff;
+  width: 15vw;
+  font-size: 1vw;
+}
+
+.TC {
+  position: absolute;
+  color: #858B9C;
+  border-bottom: 1px solid;
+  font-size: 1vw;
+  bottom: 1vw;
+  right: 1vw;
+}
+
+@media only screen and (max-width: 768px) {
+  .app {
+    height: 106vw;
+  }
+
+  .appLeft {
+    background: url(/src/assets/122.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position-x: 84px;
+    position: relative;
+  }
+
+  .backLeftImg {
+    position: absolute;
+    right: 0;
+    background: url(/src/assets/Mask.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 64vw;
+  }
+
+  .appRight {
+    right: 10vw;
+    bottom: 5.2vw;
+    width: 84vw;
+  }
+
+  .backLeftText {
+    position: absolute;
+    left: 7.8vw;
+    top: 7.8vw;
+  }
+
+  .textTop {
+    font-weight: 300;
+    font-size: 4.1vw;
+    width: 55vw;
+  }
+
+  .textDown {
+    font-weight: 500;
+    font-size: 14.9vw;
+    width: 33.5vw;
+  }
+
+  .backRightImg {
+    height: 26vw;
+  }
+
+  .countDown {
+    text-align: start;
+    padding-bottom: 4.5vw;
+    font-size: 2.3vw;
+  }
+
+  .discountTop {
+    font-weight: 600;
+    font-size: 5.4vw
+  }
+
+  .discountDown {
+    font-weight: 600;
+    font-size: 3.3vw
+  }
+
+  .pLeft {
+    padding-left: 7.8vw;
+    width: 43.6vw;
+  }
+
+  .Welcome {
+    font-weight: 600;
+    font-size: 3.3vw
+  }
+
+  .mar {
+    margin: 0;
+  }
+
+  .textCon {
+    font-size: 2.6vw
+  }
+
+  .time {
+    font-size: 3vw;
+    height: 4.2vw;
+    padding: 0.3vw;
+  }
+
+  .btn {
+    width: 43.4vw;
+    height: 7vw;
+    font-size: 3.1vw;
+  }
+
+  .TC {
+    position: absolute;
+    color: #858B9C;
+    border-bottom: 1px solid;
+    font-size: 2.6vw;
+    bottom: 1.5vw;
+    right: 1.5vw;
+  }
+}
